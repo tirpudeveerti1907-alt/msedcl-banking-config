@@ -1,0 +1,19 @@
+#custom properties
+build:
+    version: "3.0"
+transaction:
+    message: "Welcome to MSEDCL bank Transaction created REST API - UAT"
+    contactDetails:
+        name: "Snehal"
+        email: "snehal@mahadiscom.in"
+    onCallSupport:
+        - 123457890
+        - 987654125
+#below content is off application.properties file, this file was rename to application.yaml, for .properties file below format is used
+#spring.application.name=03_TransactionService
+#spring.datasource.username=root
+#spring.datasource.password=root123
+#spring.datasource.url=jdbc:mysql://localhost:3306/transactions_db
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#logging.file.name=logs/transactions.log
+#server.port=8081
