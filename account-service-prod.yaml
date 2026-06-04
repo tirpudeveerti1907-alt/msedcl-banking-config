@@ -1,19 +1,19 @@
-spring:
-    application:
-        name: "account-service"
-    datasource:
-        username: root
-        password: root123
-        url: jdbc:mysql://localhost:3306/accounts_db
-        driver-class-name: com.mysql.cj.jdbc.Driver
-    profiles:
-        active:
-            - "PROD"
-logging:
-    file:
-        name: logs/accounts.logs
-server:
-    port: 8181
+#spring:
+#    application:
+#        name: "account-service"
+#    datasource:
+#        username: root
+#        password: root123
+#        url: jdbc:mysql://localhost:3306/accounts_db
+#        driver-class-name: com.mysql.cj.jdbc.Driver
+#    profiles:
+#        active:
+#            - "PROD"
+#logging:
+#    file:
+#        name: logs/accounts.logs
+#server:
+#    port: 8181
 #custom properties - used in application
 build:
     version: "1.0"
