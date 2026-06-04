@@ -16,7 +16,7 @@ logging:
 build:
     version: "2.0"
 customers:
-    message: "Welcome to MSEDCL bank customer created REST API - PRODUCTION"
+    message: "Welcome to MSEDCL bank customer created REST API - PRODUCTION CUSTOMER REST API"
     contactDetails:
         name: "Snehal"
         email: "snehal@mahadiscom.in"
